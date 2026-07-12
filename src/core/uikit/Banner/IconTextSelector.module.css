@@ -1,0 +1,46 @@
+.iconTextSelectorHolder
+{
+    display: flex;
+    flex-direction: column;
+    width: 100px;
+    padding: 8px;
+    flex-shrink: 0;
+}
+
+.iconTextSelectorHolder:hover
+{
+    border: 1px solid black;
+    border-radius: 16px;
+    padding: 8px;
+}
+
+.badge
+{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+
+}
+
+.iconDisplay
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.textDisplay
+{
+     display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.trending
+{
+    background-image: linear-gradient(to right, #ff7e5f, #feb47b);
+    height: 20px;
+    border-radius: 2px;
+    padding: 4px;
+}

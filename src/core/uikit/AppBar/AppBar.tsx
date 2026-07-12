@@ -1,4 +1,5 @@
 import Cta from '../Cta/Cta';
+import SearchIcon from '../SearchIcon/SearchIcon';
 import classes from './AppBar.module.css';
 
 function AppBar()
@@ -11,9 +12,9 @@ function AppBar()
             <Cta title={'India Packages'} path={'/tour'}/>
             <Cta title={'International packages'} path={'/'}/>
             <Cta title={'Activities'} path={'/'}/>
-            <h4>Search</h4>
+            <SearchIcon/>
             <h4>Currency</h4>
-            <h4>Login</h4>
+            <Cta title={'Login'} path={'/'}/>
         </div>
 
     </div>

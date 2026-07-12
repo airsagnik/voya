@@ -1,0 +1,4 @@
+.flippableImage {
+    transition: transform 0.8s ease;
+    border-radius: 16px;
+}
