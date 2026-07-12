@@ -1,0 +1,10 @@
+.searchIcon
+{
+    height: 36px;
+    width: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    border: 2px solid black;
+}

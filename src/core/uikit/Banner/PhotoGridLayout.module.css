@@ -1,0 +1,8 @@
+.photoGridContainer
+{
+    height: 156px;
+    display: flex;
+    flex-direction: row;
+    gap: 4px;
+    overflow: hidden;
+}

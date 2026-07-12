@@ -1,0 +1,28 @@
+.carouselHolder
+{
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    scrollbar-width: none;
+}
+
+.scrollButton
+{
+    display: flex;
+    flex-grow: 0;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: center;
+    background-color: gray;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+}
+
+.itemHolder
+{
+    display: flex;
+    flex-grow: 1;
+    overflow-y: auto;
+    scrollbar-width: none;
+}
