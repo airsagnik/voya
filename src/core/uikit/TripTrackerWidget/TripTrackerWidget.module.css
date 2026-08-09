@@ -7,6 +7,7 @@
     align-items: center;
     justify-content: center;
     background-color: lightblue;
+    text-align: center;
 }
 
 .counterContainer
@@ -51,4 +52,18 @@
         transform: translateY(0);
     }
     
+}
+
+@media (max-width:768px)
+{
+    .counterContainer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .divider
+    {
+        display: none;
+    }
 }

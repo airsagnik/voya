@@ -24,3 +24,18 @@
     gap: 16px;
     align-items: center;
 }
+
+.hamburgerlogo
+{
+    display: none;
+}
+
+@media (max-width:768px) {
+
+    .hamburgerlogo
+    {
+        display: inline-block;
+        padding: 12px;
+    }
+
+}
