@@ -26,3 +26,10 @@
     overflow-y: auto;
     scrollbar-width: none;
 }
+
+@media (max-width : 768px)
+{
+    .scrollButton {
+        display: none;
+    }
+}
