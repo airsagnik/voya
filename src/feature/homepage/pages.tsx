@@ -4,6 +4,7 @@ import CarousalGroupWithHeader from "../../core/uikit/CarousalGroupWithHeader/Ca
 import TripTrackerWidget from "../../core/uikit/TripTrackerWidget/TripTrackerWidget";
 
 
+
 function Homepage() {
     return <div>
         <AppBar/>

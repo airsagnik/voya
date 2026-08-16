@@ -1,0 +1,9 @@
+.externalSignInHolder
+{
+    display: flex;
+    border : 1px solid gray;
+    margin: auto;
+    padding: 12px;
+    border-radius: 12px;
+    gap: 4px;
+}

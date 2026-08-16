@@ -28,7 +28,7 @@ function AppBar()
             <Cta title={'Activities'} path={'/'} isHiddenInMobileView={true}/>
             <SearchIcon/>
             <h4>Currency</h4>
-            <Cta title={'Login'} path={'/'} isHiddenInMobileView={false}/>
+            <Cta title={'Login'} path={'/login'} isHiddenInMobileView={false}/>
         </div>
 
     </div>
