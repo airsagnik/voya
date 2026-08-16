@@ -1,0 +1,23 @@
+.ratingDisplay
+{
+    background-color: lightgoldenrodyellow;
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.rating
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px;
+}
+
+img
+{
+    height: 20px;
+    width: 25px;
+    border-radius: 20px;
+}

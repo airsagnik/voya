@@ -1,0 +1,15 @@
+.tabRoutesHolder
+{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 50px;
+    border-bottom: 1px solid lightgray;
+
+}
+
+.routeContentHolder
+{
+  flex-grow: 1;
+
+}

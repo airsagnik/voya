@@ -1,0 +1,49 @@
+.loginOverlay
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    aspect-ratio: 2;
+    height: 92vh;
+    border: solid 1px black;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+}
+
+.leftColumn
+{
+    width: 100%;
+    height: 92vh;
+    object-fit: cover;
+
+}
+
+.rightColumn
+{
+    width: 100%;
+    height: 92vh;
+}
+
+.leftColumnHolder
+{
+    display: flex;
+}
+
+@media (max-width : 768px) {
+
+    .leftColumnHolder {
+        display: none;
+    }
+
+    .loginOverlay 
+    {
+        margin-top: 0px;
+        grid-template-columns: 1fr;
+        aspect-ratio: 0.5;
+        height: 90vh;
+    }
+    
+}
