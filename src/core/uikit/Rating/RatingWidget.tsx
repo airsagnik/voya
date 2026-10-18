@@ -3,7 +3,7 @@ function RatingWidget({rating,agency,linkToLogoImage}:{rating:number,agency:stri
 
     return <div className={classes.individualRating}>
         <div>
-            <img src={`${linkToLogoImage}`} alt="" />
+            <img className={classes.ratingLogo} src={`${linkToLogoImage}`} alt="" />
         </div>
         <div>
             <div>{rating}/5</div>

@@ -1,0 +1,28 @@
+.imageGridHolder
+{
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.leftImageSection
+{
+    display: flex;
+    flex: 1;
+
+}
+
+.rightImageSection
+{
+    display: grid;
+    flex: 1;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+
+}
+
+.displayImage
+{
+    max-width: 100%;
+}

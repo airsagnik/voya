@@ -1,0 +1,18 @@
+.image
+{
+    max-width: 100%;
+}
+
+.imageTextHolder
+{
+    position: relative;
+}
+
+.overlayText
+{
+    position: absolute;
+    bottom: 0px;
+    left: 10px;
+    z-index: 2;
+    color: white;
+}
