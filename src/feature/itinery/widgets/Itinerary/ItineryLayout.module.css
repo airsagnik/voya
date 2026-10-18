@@ -1,0 +1,20 @@
+.itineraryLayout
+{
+    display: flex;
+    flex-direction: row;
+
+}
+
+.itineraryDisplay
+{
+    display: flex;
+    flex: 2;
+
+}
+
+.itineraryEnquiry
+{
+    display: flex;
+    flex: 1;
+
+}

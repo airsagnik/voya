@@ -4,3 +4,10 @@
     align-items: center;
     justify-content: start;
 }
+
+.ratingLogo
+{
+    height: 20px;
+    width: 25px;
+    border-radius: 20px;
+} 
