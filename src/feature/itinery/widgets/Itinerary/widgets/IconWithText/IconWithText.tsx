@@ -1,7 +1,9 @@
-function IconWithText({ text }: { text: string }) {
-    return <div>
+import classes from "./IconWithText.module.css";
+
+function IconWithText({ icon, text }: { icon: React.ReactNode, text: string }) {
+    return <div className={classes.imageTextDesign}>
         <div>
-            icon
+            {icon}
         </div>
         <div>
             {text}

@@ -1,0 +1,13 @@
+.tripDurationSelectorLayout
+{
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+
+}
+
+.destinationRoutes
+{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}

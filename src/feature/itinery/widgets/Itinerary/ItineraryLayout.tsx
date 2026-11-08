@@ -7,7 +7,7 @@ function ItineraryLayout() {
             <TripSummaryDisplay />
         </div>
         <div className={classes.itineraryEnquiry}>
-           hELLO
+           hELL
         </div>
     </div>
 }
