@@ -3,3 +3,9 @@
     display: flex;
     gap: 16px;
 }
+
+.tripInclusion
+{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+}

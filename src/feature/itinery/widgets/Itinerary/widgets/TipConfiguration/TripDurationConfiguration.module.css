@@ -1,0 +1,52 @@
+.tripDurationSelector
+{
+    height: 100px;
+    width: 100px;
+    border-radius: 12px;
+    border: 1px solid black;
+    overflow: hidden;
+    position: relative;
+    gap: 4px;
+}
+
+.imageSelector
+{
+    width: 100%;
+    height: 100%;
+    overflow: hidden; 
+    position: relative;
+    z-index: -1;
+}
+
+.imageSelectorHolder
+{
+    margin: 0;
+    padding: 0;
+    width: fit-content;
+}
+
+.zeroMarginPadding
+{
+    margin: 0;
+    padding: 0;
+}
+
+.overlayDuration
+{
+    color: black;
+    background-color: lightgray;
+    position: absolute;
+    z-index: 1px;
+    bottom: -5px;
+    border-radius: 12px;
+    left: 5px;
+    padding: 4px;
+    
+}
+
+.destinationRoutes
+{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
